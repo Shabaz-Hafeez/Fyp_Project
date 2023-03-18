@@ -3,10 +3,10 @@
         <div class="header-bar d-flex justify-content-between border-bottom">
             <div class="d-flex align-items-center">
                 <a href="#" class="logo-icon">
-                    <img src="../assets/images/logo-icon.png" height="30" class="small" alt="">
+                    <img src="{{ asset('auth/assets/images/logo-icon.png')}}" height="30" class="small" alt="">
                     <span class="big">
-                        <img src="../assets/images/logo-dark.png" height="22" class="logo-light-mode" alt="">
-                        <img src="../assets/images/logo-light.png" height="22" class="logo-dark-mode" alt="">
+                        <img src="{{ asset('auth/assets/images/logo-dark.png')}}" height="22" class="logo-light-mode" alt="">
+                        <img src="{{ asset('auth/assets/images/logo-light.png')}}" height="22" class="logo-dark-mode" alt="">
                     </span>
                 </a>
                 <a id="close-sidebar" class="btn btn-icon btn-pills btn-soft-primary ms-2" href="#">
@@ -30,12 +30,12 @@
                     <div class="dropdown dropdown-primary">
                         <button type="button" class="btn btn-pills btn-soft-primary dropdown-toggle p-0"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
-                                src="../assets/images/language/american.png"
+                                src="{{ asset('auth/assets/images/language/american.png')}}"
                                 class="avatar avatar-ex-small rounded-circle p-2" alt=""></button>
                         <div class="dropdown-menu dd-menu drop-ups dropdown-menu-end shadow border-0 mt-3 p-2"
                             data-simplebar style="height: 175px;">
                             <a href="javascript:void(0)" class="d-flex align-items-center">
-                                <img src="../assets/images/language/chinese.png"
+                                <img src="{{ asset('auth/assets/images/language/chinese.png')}}"
                                     class="avatar avatar-client rounded-circle shadow" alt="">
                                 <div class="flex-1 text-left ms-2 overflow-hidden">
                                     <small class="text-dark mb-0">Chinese</small>
@@ -43,7 +43,7 @@
                             </a>
 
                             <a href="javascript:void(0)" class="d-flex align-items-center mt-2">
-                                <img src="../assets/images/language/european.png"
+                                <img src="{{ asset('auth/assets/images/language/european.png')}}"
                                     class="avatar avatar-client rounded-circle shadow" alt="">
                                 <div class="flex-1 text-left ms-2 overflow-hidden">
                                     <small class="text-dark mb-0">European</small>
@@ -51,7 +51,7 @@
                             </a>
 
                             <a href="javascript:void(0)" class="d-flex align-items-center mt-2">
-                                <img src="../assets/images/language/indian.png"
+                                <img src="{{ asset('auth/assets/images/language/indian.png')}}"
                                     class="avatar avatar-client rounded-circle shadow" alt="">
                                 <div class="flex-1 text-left ms-2 overflow-hidden">
                                     <small class="text-dark mb-0">Indian</small>
@@ -59,7 +59,7 @@
                             </a>
 
                             <a href="javascript:void(0)" class="d-flex align-items-center mt-2">
-                                <img src="../assets/images/language/japanese.png"
+                                <img src="{{ asset('auth/assets/images/language/japanese.png')}}"
                                     class="avatar avatar-client rounded-circle shadow" alt="">
                                 <div class="flex-1 text-left ms-2 overflow-hidden">
                                     <small class="text-dark mb-0">Japanese</small>
@@ -67,7 +67,7 @@
                             </a>
 
                             <a href="javascript:void(0)" class="d-flex align-items-center mt-2">
-                                <img src="../assets/images/language/russian.png"
+                                <img src="{{ asset('auth/assets/images/language/russian.png')}}"
                                     class="avatar avatar-client rounded-circle shadow" alt="">
                                 <div class="flex-1 text-left ms-2 overflow-hidden">
                                     <small class="text-dark mb-0">Russian</small>
@@ -97,7 +97,7 @@
                             data-simplebar style="height: 320px; width: 300px;">
                             <a href="#" class="d-flex align-items-center justify-content-between py-2">
                                 <div class="d-inline-flex position-relative overflow-hidden">
-                                    <img src="../assets/images/client/02.jpg"
+                                    <img src="{{ asset('auth/assets/images/client/02.jpg')}}"
                                         class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                     <small class="text-dark mb-0 d-block text-truncat ms-3">You received a new email
                                         from <b>Janalia</b> <small class="text-muted fw-normal d-inline-block">1 hour
@@ -108,7 +108,7 @@
                             <a href="#"
                                 class="d-flex align-items-center justify-content-between py-2 border-top">
                                 <div class="d-inline-flex position-relative overflow-hidden">
-                                    <img src="../assets/images/client/Codepen.svg"
+                                    <img src="{{ asset('auth/assets/images/client/Codepen.svg')}}"
                                         class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                     <small class="text-dark mb-0 d-block text-truncat ms-3">You received a new email
                                         from <b>codepen</b> <small class="text-muted fw-normal d-inline-block">4 hour
@@ -119,7 +119,7 @@
                             <a href="#"
                                 class="d-flex align-items-center justify-content-between py-2 border-top">
                                 <div class="d-inline-flex position-relative overflow-hidden">
-                                    <img src="../assets/images/client/03.jpg"
+                                    <img src="{{ asset('auth/assets/images/client/03.jpg')}}"
                                         class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                     <small class="text-dark mb-0 d-block text-truncat ms-3">You received a new email
                                         from <b>Cristina</b> <small class="text-muted fw-normal d-inline-block">5 hour
@@ -130,7 +130,7 @@
                             <a href="#"
                                 class="d-flex align-items-center justify-content-between py-2 border-top">
                                 <div class="d-inline-flex position-relative overflow-hidden">
-                                    <img src="../assets/images/client/dribbble.svg"
+                                    <img src="{{asset('auth/assets/images/client/dribbble.svg')}}"
                                         class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                     <small class="text-dark mb-0 d-block text-truncat ms-3">You received a new email
                                         from <b>Dribbble</b> <small class="text-muted fw-normal d-inline-block">24 hour
@@ -141,7 +141,7 @@
                             <a href="#"
                                 class="d-flex align-items-center justify-content-between py-2 border-top">
                                 <div class="d-inline-flex position-relative overflow-hidden">
-                                    <img src="../assets/images/client/06.jpg"
+                                    <img src="{{ asset('auth/assets/images/client/06.jpg')}}"
                                         class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                     <small class="text-dark mb-0 d-block text-truncat ms-3">You received a new email
                                         from <b>Donald Aghori</b> <small class="text-muted fw-normal d-inline-block">1
@@ -152,7 +152,7 @@
                             <a href="#"
                                 class="d-flex align-items-center justify-content-between py-2 border-top">
                                 <div class="d-inline-flex position-relative overflow-hidden">
-                                    <img src="../assets/images/client/07.jpg"
+                                    <img src="{{ asset('auth/assets/images/client/07.jpg')}}"
                                         class="avatar avatar-md-sm rounded-circle shadow" alt="">
                                     <small class="text-dark mb-0 d-block text-truncat ms-3">You received a new email
                                         from <b>Calvin</b> <small class="text-muted fw-normal d-inline-block">2 day
@@ -167,12 +167,12 @@
                     <div class="dropdown dropdown-primary">
                         <button type="button" class="btn btn-pills btn-soft-primary dropdown-toggle p-0"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
-                                src="../assets/images/doctors/01.jpg" class="avatar avatar-ex-small rounded-circle"
+                                src="{{ asset('auth/assets/images/doctors/01.jpg')}}" class="avatar avatar-ex-small rounded-circle"
                                 alt=""></button>
                         <div class="dropdown-menu dd-menu dropdown-menu-end shadow border-0 mt-3 py-3"
                             style="min-width: 200px;">
                             <a class="dropdown-item d-flex align-items-center text-dark" href="profile.html">
-                                <img src="../assets/images/doctors/01.jpg"
+                                <img src="{{ asset('auth/assets/images/doctors/01.jpg')}}"
                                     class="avatar avatar-md-sm rounded-circle border shadow" alt="">
                                 <div class="flex-1 ms-2">
                                     <span class="d-block mb-1">Calvin Carlo</span>

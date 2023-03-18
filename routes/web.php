@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,6 +25,14 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');})->name('dashboard');
+    // Route::get('addproducts', function () {
+    //     return view('add-products')->name('add-products');
+    // });
 });
 
+// Route::get('/addproducts' , function(){
+//     return view('add-products')->name('add-products');
+// });
+
+// Route::get('/addproducts' , PagesController::class , 'PagesController@index')->name('add-product');
 

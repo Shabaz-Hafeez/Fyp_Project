@@ -14,18 +14,18 @@
         <meta name="website" content="https://shreethemes.in/" />
         <meta name="Version" content="v1.4.0" />
         <!-- favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="{{ asset('auth/assets/images/favicon.ico')}}">
         
         <!-- Css -->
-        <link href= "{{ asset( 'assets/libs/simplebar/simplebar.min.css' )}}"  rel="stylesheet">
+        <link href= "{{ asset( 'auth/assets/libs/simplebar/simplebar.min.css' )}}"  rel="stylesheet">
         <!-- Bootstrap Css -->
-        <link href=" {{ asset('assets/css/bootstrap.min.css') }}" class="theme-opt" rel="stylesheet" type="text/css" />
+        <link href=" {{ asset('auth/assets/css/bootstrap.min.css') }}" class="theme-opt" rel="stylesheet" type="text/css" />
         <!-- Icons Css -->
-        <link href=" {{ asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/libs/remixicon/fonts/remixicon.css')}}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('assets/libs/%40iconscout/unicons/css/line.css') }}" type="text/css" rel="stylesheet" />
+        <link href=" {{ asset('auth/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('auth/assets/libs/remixicon/fonts/remixicon.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('auth/assets/libs/%40iconscout/unicons/css/line.css') }}" type="text/css" rel="stylesheet" />
         <!-- Style Css-->
-        <link href=" {{ asset('assets/css/style.min.css')}}" class="theme-opt" rel="stylesheet" type="text/css" />
+        <link href=" {{ asset('auth/assets/css/style.min.css')}}" class="theme-opt" rel="stylesheet" type="text/css" />
 
     </head>
 

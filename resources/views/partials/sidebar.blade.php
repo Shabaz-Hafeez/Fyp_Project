@@ -4,10 +4,10 @@
          <div class="sidebar-content" data-simplebar style="height: calc(100% - 60px);">
              <div class="sidebar-brand">
                  <a href="index.html">
-                     <img src="../assets/images/logo-dark.png" height="22" class="logo-light-mode" alt="">
-                     <img src="../assets/images/logo-light.png" height="22" class="logo-dark-mode" alt="">
+                     <img src="{{ asset('auth/assets/images/logo-dark.png')}}" height="22" class="logo-light-mode" alt="">
+                     <img src="{{ asset('authassets/images/logo-light.png')}}" height="22" class="logo-dark-mode" alt="">
                      <span class="sidebar-colored">
-                         <img src="../assets/images/logo-light.png" height="22" alt="">
+                         <img src="{{ asset('auth/assets/images/logo-light.png')}}" height="22" alt="">
                      </span>
                  </a>
              </div>
@@ -15,28 +15,16 @@
              <ul class="sidebar-menu">
                  <li><a href="#"><i class="uil uil-dashboard me-2 d-inline-block"></i>Dashboard</a></li>
 
-                 <li class="sidebar-dropdown">
-                     <a href="javascript:void(0)"><i class="uil uil-browser me-2"></i>Layouts <span
-                             class="badge bg-danger rounded-pill ms-2">New</span></a>
-                     <div class="sidebar-submenu">
-                         <ul>
-                             <li><a href="index-dark.html">Dark Dashboard</a></li>
-                             <li><a href="index-rtl.html">RTL Dashboard</a></li>
-                             <li><a href="index-rtl-dark.html">Dark RTL Dashboard</a></li>
-                             <li><a href="index-sidebar-dark.html">Dark Sidebar</a></li>
-                             <li><a href="index-sidebar-colored.html">Colored Sidebar</a></li>
-                         </ul>
-                     </div>
-                 </li>
+                 
                  <li><a href="appointment.html"><i class="uil uil-stethoscope me-2 d-inline-block"></i>Appointment</a>
                  </li>
 
                  <li class="sidebar-dropdown">
-                     <a href="javascript:void(0)"><i class="uil uil-user me-2 d-inline-block"></i>Doctors</a>
+                     <a href="javascript:void(0)"><i class="uil-shopping-cart-alt me-2 d-inline-block"></i>Product Management</a>
                      <div class="sidebar-submenu">
                          <ul>
-                             <li><a href="doctors.html">Doctors</a></li>
-                             <li><a href="add-doctor.html">Add Doctor</a></li>
+                             <li><a href="">Add Products</a></li>
+                             <li><a href="add-doctor.html">Products</a></li>
                              <li><a href="dr-profile.html">Profile</a></li>
                          </ul>
                      </div>
@@ -76,15 +64,7 @@
                      </div>
                  </li>
 
-                 <li class="sidebar-dropdown">
-                     <a href="javascript:void(0)"><i class="uil uil-flip-h me-2 d-inline-block"></i>Blogs</a>
-                     <div class="sidebar-submenu">
-                         <ul>
-                             <li><a href="blogs.html">Blogs</a></li>
-                             <li><a href="blog-detail.html">Blog Detail</a></li>
-                         </ul>
-                     </div>
-                 </li>
+                
 
                  <li class="sidebar-dropdown">
                      <a href="javascript:void(0)"><i class="uil uil-file me-2 d-inline-block"></i>Pages</a>
@@ -101,72 +81,25 @@
                      </div>
                  </li>
 
-                 <li class="sidebar-dropdown">
-                     <a href="javascript:void(0)"><i class="uil uil-envelope-open me-2 d-inline-block"></i>Email
-                         Template </a>
-                     <div class="sidebar-submenu">
-                         <ul>
-                             <li><a href="email-confirmation.html">Confirmation</a></li>
-                             <li><a href="email-password-reset.html">Reset Password</a></li>
-                             <li><a href="email-alert.html">Alert</a></li>
-                             <li><a href="email-invoice.html">Invoice</a></li>
-                         </ul>
-                     </div>
-                 </li>
+                
 
                  <li class="sidebar-dropdown">
                      <a href="javascript:void(0)"><i
                              class="uil uil-sign-in-alt me-2 d-inline-block"></i>Authentication</a>
                      <div class="sidebar-submenu">
                          <ul>
-                             <li><a href="login.html">Login</a></li>
-                             <li><a href="signup.html">Signup</a></li>
-                             <li><a href="forgot-password.html">Forgot Password</a></li>
-                             <li><a href="lock-screen.html">Lock Screen</a></li>
+                             <li><a href="{{ route('login')}}">Login</a></li>
+                             <li><a href="{{route('register')}}">Signup</a></li>
+                            
                          </ul>
                      </div>
                  </li>
 
-                 <li class="sidebar-dropdown">
-                     <a href="javascript:void(0)"><i class="uil uil-file-info-alt me-2 d-inline-block"></i>UI Components
-                     </a>
-                     <div class="sidebar-submenu">
-                         <ul>
-                             <li><a href="ui-button.html">Buttons</a></li>
-                             <li><a href="ui-badges.html">Badges</a></li>
-                             <li><a href="ui-alert.html">Alert</a></li>
-                             <li><a href="ui-dropdown.html">Dropdowns</a></li>
-                             <li><a href="ui-typography.html">Typography</a></li>
-                             <li><a href="ui-background.html">Background</a></li>
-                             <li><a href="ui-text.html">Text Color</a></li>
-                             <li><a href="ui-tooltip-popover.html">Tooltips & Popovers</a></li>
-                             <li><a href="ui-shadow.html">Shadows</a></li>
-                             <li><a href="ui-border.html">Border</a></li>
-                             <li><a href="ui-form.html">Form Elements</a></li>
-                             <li><a href="ui-pagination.html">Pagination</a></li>
-                             <li><a href="ui-avatar.html">Avatars</a></li>
-                             <li><a href="ui-modals.html">Modals</a></li>
-                             <li><a href="ui-icons.html">Icons</a></li>
-                         </ul>
-                     </div>
-                 </li>
+                 
 
-                 <li class="sidebar-dropdown">
-                     <a href="javascript:void(0)"><i class="uil uil-postcard me-2 d-inline-block"></i>Miscellaneous
-                     </a>
-                     <div class="sidebar-submenu">
-                         <ul>
-                             <li><a href="comingsoon.html">Comingsoon</a></li>
-                             <li><a href="maintenance.html">Maintenance</a></li>
-                             <li><a href="error.html">404 !</a></li>
-                             <li><a href="thankyou.html">Thank you...!</a></li>
-                         </ul>
-                     </div>
-                 </li>
+                
 
-                 <li><a href="../landing/index-two.html" target="_blank"><i
-                             class="uil uil-window me-2 d-inline-block"></i>Landing page</a></li>
-             </ul>
+                
              <!-- sidebar-menu  -->
          </div>
          <!-- Sidebar Footer -->
