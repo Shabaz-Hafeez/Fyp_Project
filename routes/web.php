@@ -36,3 +36,11 @@ Route::middleware([
 
 // Route::get('/addproducts' , PagesController::class , 'PagesController@index')->name('add-product');
 
+//make four cards in bootstrap in one row?
+
+
+Route::get('/setup' , function(){
+
+    return view('setup');
+})->name('setup');
+

@@ -13,10 +13,10 @@
              </div>
 
              <ul class="sidebar-menu">
-                 <li><a href="#"><i class="uil uil-dashboard me-2 d-inline-block"></i>Dashboard</a></li>
+                 <li><a href="{{ route('dashboard')}}"><i class="uil uil-dashboard me-2 d-inline-block"></i>Dashboard</a></li>
 
                  
-                 <li><a href="appointment.html"><i class="uil uil-stethoscope me-2 d-inline-block"></i>Services</a>
+                 <li><a href="{{ route('setup') }}"><i class="uil uil-stethoscope me-2 d-inline-block"></i>Setup</a>
                  </li>
 
                  <li class="sidebar-dropdown">

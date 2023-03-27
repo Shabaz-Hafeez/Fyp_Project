@@ -65,7 +65,7 @@
     <div class="layout-specing">
         <h5 class="mb-2">Dashboard</h5>
 
-<div class="container-fluid">
+ <div class="container-fluid">
   <div class="row">
     <div class="col-lg-3 col-md-6">
       <div class="card">
