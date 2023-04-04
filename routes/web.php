@@ -28,6 +28,14 @@ Route::middleware([
     // Route::get('addproducts', function () {
     //     return view('add-products')->name('add-products');
     // });
+
+    Route::get('/setup', function () {
+          return view('setup');
+    })->name('setup');
+
+    Route::get('/product-upload', function () {
+        return view('product-upload');
+    })->name('product-upload');
 });
 
 // Route::get('/addproducts' , function(){
@@ -39,8 +47,5 @@ Route::middleware([
 //make four cards in bootstrap in one row?
 
 
-Route::get('/setup' , function(){
 
-    return view('setup');
-})->name('setup');
 

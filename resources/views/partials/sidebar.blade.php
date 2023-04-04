@@ -24,7 +24,7 @@
                      <div class="sidebar-submenu">
                          <ul>
                              <li><a href="">Manage Products</a></li>
-                             <li><a href="add-doctor.html">Product Categories</a></li>
+                             <li><a href="{{ route('product-upload')}}">Product Upload</a></li>
                              
                          </ul>
                      </div>
