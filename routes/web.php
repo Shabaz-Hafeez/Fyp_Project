@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\ProductsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,9 +26,15 @@ Route::middleware([
 ])->group(function () {
     Route::get('/dashboard', function () {
         return view('dashboard');})->name('dashboard');
-    // Route::get('addproducts', function () {
+
+
+    // Route::get('/addproducts', function () {
     //     return view('add-products')->name('add-products');
     // });
+
+    // Route::get('/addproducts', function () {
+    //     return view('add-products');
+    // })->name('add-products');
 
     Route::get('/setup', function () {
           return view('setup');
@@ -36,15 +43,30 @@ Route::middleware([
     Route::get('/product-upload', function () {
         return view('product-upload');
     })->name('product-upload');
+
+    // Route::resource('/addproducts' , ProductsController::class);
+    Route::resource('/addproduct', ProductsController::class);
+
 });
 
 // Route::get('/addproducts' , function(){
-//     return view('add-products')->name('add-products');
+//     return view('add-products');
 // });
 
 // Route::get('/addproducts' , PagesController::class , 'PagesController@index')->name('add-product');
+//    Route::get('/addproducts' , PagesController::class , 'PagesController@create')->name('add-product');
 
 //make four cards in bootstrap in one row?
+
+//make route of name add-products in laravel 10
+// Route::get('/addproducts' , PagesController::class , 'PagesController@index')->name('add-product');
+
+
+
+
+
+
+
 
 
 
